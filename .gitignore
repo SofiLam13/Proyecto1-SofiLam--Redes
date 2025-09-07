@@ -2,7 +2,7 @@
 .env
 config.py
 secrets.json
-credentials.txt
+credentials.json
 *.key
 *.pem
 *.crt
