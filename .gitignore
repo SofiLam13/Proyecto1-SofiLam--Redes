@@ -1,18 +1,13 @@
-# Archivos sensibles
-.env
-config.py
-secrets.json
+# Archivos con secretos
 credentials.json
+token.json
+*.json
+
+# Scripts que puedan contener claves
+proyecto.py
+
+# Otros archivos sensibles
+.env
 *.key
 *.pem
 *.crt
-
-# Carpetas
-node_modules/
-__pycache__/
-.venv/
-dist/
-
-# Sistemas operativos
-.DS_Store
-Thumbs.db
