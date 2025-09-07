@@ -1,0 +1,18 @@
+# Archivos sensibles
+.env
+config.py
+secrets.json
+credentials.txt
+*.key
+*.pem
+*.crt
+
+# Carpetas
+node_modules/
+__pycache__/
+.venv/
+dist/
+
+# Sistemas operativos
+.DS_Store
+Thumbs.db
